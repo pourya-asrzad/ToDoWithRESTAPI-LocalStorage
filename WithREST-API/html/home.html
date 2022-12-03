@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="/img/unnamed.png" type="image/x-icon">
+    <title>TO-DO-LIST</title>
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a class="homelink" href="/html/home.html">Home</a>
+            <a href="/html/Todos.html">Todos</a>
+        </div>
+
+        <br>
+        <hr>
+    </header>
+    <main>
+
+        <section>
+            <div class="form-container">
+                <div>
+                    <label for="Title">Title*:</label>
+                    <br>
+                    <input id="title" type="text" placeholder="What will you do today?">
+                </div>
+                <div>
+                    <label class="deslable" for="Description">Description:</label>
+                    <br>
+                    <input id="description" type="text" placeholder="Some information">
+                </div>
+                <div>
+                    <label class="datelable" for="Date">Due Date:</label>
+                    <br>
+                    <input id="date" type="text" placeholder="10/31/2021">
+                </div>
+                <button id="sendbtn" class="button-50" role="button">Submit</button>
+            </div>
+        </section>
+        <section class="staus-of-send">
+
+        </section>
+    </main>
+    <script type="module" src="/js/homescript.js"></script>
+</body>
+
+</html>

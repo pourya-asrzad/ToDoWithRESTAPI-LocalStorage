@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <title>add-task</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-page">
+            <input class="txinput" id="title" placeholder="Todo title" type="text">
+            <input class="txinput" id="description" placeholder="Todo description" type="text">
+            <input class="date" type="date">
+            <button class="sub-btn" onclick="addtask()">Sub</button>
+        </div>
+    </header>
+    <main>
+
+        <div class="task-cards-container">
+            <div class="task-card type-task" id="taskmode">
+                <h2>Tasks</h2>
+            </div>
+            <div class="task-card type-do" id="doingtype">
+                <h2>Doing</h2>
+            </div>
+            <div class="task-card type-compelete" id="completetype">
+                <h2>Completed</h2>
+            </div>
+        </div>
+
+    </main>
+    <script src="/script2.js">
+
+    </script>
+</body>
+
+</html>

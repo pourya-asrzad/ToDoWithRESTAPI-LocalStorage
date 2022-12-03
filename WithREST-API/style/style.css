@@ -1,0 +1,547 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    /* background-color: #323a4158; */
+    background-color: #dedcd7;
+    margin: 0;
+    position: relative;
+
+}
+
+header {
+    background-color: rgba(134, 221, 224, 0.95);
+    padding: 5px;
+    padding-bottom: 0;
+    width: 99.36%;
+
+    position: fixed;
+    top: 0;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* button*/
+.button-50 {
+    appearance: button;
+    background-color: rgb(54, 60, 214);
+    background-image: none;
+    border: 1px solid #000;
+    box-shadow: rgb(35, 33, 33) 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 40%;
+    height: 2rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.button-50:focus {
+    text-decoration: none;
+}
+
+.button-50:hover {
+    text-decoration: none;
+}
+
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-50:not([disabled]):active {
+    box-shadow: rgb(16, 15, 15) 2px 2px 0 0, rgb(0, 0, 0) 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 12px 50px;
+    }
+}
+
+input {
+    border-radius: 7px;
+    border: 1px solid blue;
+}
+
+.button-delete {
+    appearance: button;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #000;
+    box-shadow: rgb(35, 33, 33) 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 17rem;
+    height: 2rem;
+}
+
+.button-delete:focus {
+    text-decoration: none;
+}
+
+.button-delete:hover {
+    text-decoration: none;
+}
+
+.button-delete:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-delete:not([disabled]):active {
+    box-shadow: rgb(16, 15, 15) 2px 2px 0 0, rgb(0, 0, 0) 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-delete {
+        padding: 12px 50px;
+    }
+}
+
+/**/
+a {
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+    font-weight: bold;
+}
+
+.homelink {
+    margin-right: 1rem;
+}
+
+.links {
+    float: left;
+    display: block;
+}
+
+.form-container {
+    margin-top: 2rem;
+}
+
+input {
+    width: 40%;
+    height: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+
+}
+
+label {
+    margin-right: 35rem;
+    font-size: 18px;
+}
+
+.deslable {
+    margin-right: 32rem;
+}
+
+.datelable {
+    margin-right: 33rem;
+}
+
+.massege-notice {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    color: aliceblue;
+    background-color: rgba(11, 139, 11, 0.9);
+    display: grid;
+    grid-template-columns: 250px 30px;
+    grid-template-rows: 30px 50px;
+    width: fit-content;
+    text-align: initial;
+    padding: 5px;
+    box-shadow: #000 1px 1px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 6px;
+}
+
+@keyframes example {
+    0% {
+        background-color: green;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: green;
+        left: 150px;
+        top: 0px;
+    }
+
+}
+
+.status {
+    font-weight: 600;
+
+}
+
+.icon-delete {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.top-titre-card {
+    display: flex;
+    align-items: center
+}
+
+.title {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.card-date {
+    color: rgba(0, 0, 0, 0.393);
+}
+
+.card-description {
+    text-align: initial;
+    max-width: 90%;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 10px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 6px;
+    height: 150px;
+}
+
+
+.icon-boxing {
+    display: flex;
+}
+
+.flexing-2item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.onth-icon {
+    margin-right: 10px;
+}
+
+.top-delete-tasks {
+    display: flex;
+    align-items: center;
+}
+
+.alert-icon {
+    margin-right: 1rem;
+}
+
+.line {
+    height: 2px;
+    background-color: #000;
+}
+
+.delete-tasks {
+    width: 38rem;
+    background-color: #fff;
+    position: absolute;
+    top: 10rem;
+    left: 29rem;
+    box-shadow: rgba(11, 11, 21, 0.66) 2px 6px 12px -2px, rgba(0, 0, 0, 0.813) 2px 3px 7px -3px;
+    padding: 10px;
+}
+
+.delete-tasks h2 {
+    text-align: initial;
+}
+
+.inling-text-delete {
+    display: flex;
+    align-items: center;
+}
+
+.inling-text-delete p {
+    margin-right: 1rem;
+
+}
+
+.mode {
+    font-weight: 500;
+}
+
+.date {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.522);
+}
+
+.buttons {
+    margin-top: 1rem;
+
+}
+
+.coustum-checkbox {
+    width: fit-content;
+    margin: 0;
+    height: 3rem;
+    border-radius: 5px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.pagenumber {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pagenumber button {
+    /* position: absolute;
+    bottom: 5px; */
+    width: 50px;
+    height: 50px;
+    appearance: none;
+    border: none;
+    outline: none;
+    margin: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(16, 66, 231);
+    transition: .4s;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0, .2);
+    box-shadow: 0px 0px 4px rgb(0, 0, 0, .2);
+}
+
+.pagenumber button:hover {
+    background-color: #44EEAA;
+}
+
+.pagenumber button.active {
+    background-color: #44EEAA;
+    box-shadow: inset 0px 0px 4px rgb(0, 0, 0, .2);
+}
+
+.card-description p {
+    overflow: auto;
+}
+
+.form-container {
+    margin-top: 8rem;
+}
+
+.cards {
+    margin-top: 3rem;
+}
+
+
+.progress-6 {
+    width: 120px;
+    height: 22px;
+    border-radius: 20px;
+    color: #514b82;
+    border: 2px solid;
+    position: relative;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.progress-6::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: p6 2s infinite;
+}
+
+@keyframes p6 {
+    100% {
+        inset: 0
+    }
+}
+
+@media(max-width:1024px) {
+    label {
+        margin-right: 23rem;
+        font-size: 18px;
+    }
+
+    .deslable {
+        margin-right: 20rem;
+    }
+
+    .datelable {
+        margin-right: 21rem;
+    }
+
+    .card {
+        overflow: overlay;
+    }
+
+    .delete-tasks {
+        left: 13rem
+    }
+}
+
+@media(max-width:768px) {
+    .delete-tasks {
+        left: 7rem;
+        width: 33rem;
+    }
+
+    label {
+        margin-right: 17rem;
+        font-size: 18px;
+    }
+
+    .deslable {
+        margin-right: 14rem;
+    }
+
+    .datelable {
+        margin-right: 15rem;
+    }
+
+    .card {
+        width: 57%;
+        margin-left: 19%;
+    }
+}
+
+@media(max-width:426px) {
+    .delete-tasks {
+        left: 3rem;
+        width: 19rem;
+        height: 12rem;
+    }
+
+    .button-delete {
+        width: 9rem;
+    }
+
+    .delete-tasks h2 {
+        font-size: 12px;
+    }
+
+    .delete-tasks img {
+        width: 41px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .card {
+        width: 69%;
+        margin-left: 12%;
+        height: 122px;
+    }
+
+    .top-titre-card {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    input {
+        width: 74%;
+    }
+
+    .progress-6 {
+        left: 31%;
+    }
+
+    label {
+        margin-right: 15rem;
+        font-size: 15px;
+    }
+
+    .deslable {
+        margin-right: 12rem;
+    }
+
+    .datelable {
+        margin-right: 13rem;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    img {
+        width: 20px;
+    }
+
+}
+
+@media(max-width:376px) {
+    .delete-tasks {
+        left: 2rem;
+        width: 19rem;
+        height: 12rem;
+    }
+}
+
+@media(max-width:321px) {
+    .delete-tasks {
+        left: 1rem;
+        width: 17rem;
+        height: 12rem;
+    }
+
+    .button-delete {
+        width: 8rem;
+    }
+}

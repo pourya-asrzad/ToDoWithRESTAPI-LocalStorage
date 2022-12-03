@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.top-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+input {
+    width: 23rem;
+    height: 2.5rem;
+    margin-right: 10px;
+    font-size: 1.05rem;
+    border-color: rgba(68, 66, 66, 0.317);
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(31, 162, 11);
+    color: aliceblue;
+    border: 0;
+    width: 6rem;
+}
+
+button:hover {
+    background-color: rgba(31, 162, 11, 0.8);
+}
+
+.task-cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+
+}
+
+.task-card {
+    width: 25%;
+    border-radius: 5px;
+    height: 34rem;
+    overflow: overlay;
+    text-align: center;
+}
+
+.type-task {
+    background-color: #add8e6;
+
+}
+
+.type-do {
+    background-color: #f5f0b3;
+}
+
+.type-compelete {
+    background-color: #84f084;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: 2.2rem;
+    height: 14rem;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-top span {
+    font-size: 1.7rem;
+    color: red;
+    margin-right: 1rem;
+    user-select: none;
+}
+
+.card-top h3 {
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+.card p {
+    text-align: start;
+    margin-left: 1rem;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.card-icons div {
+    border-radius: 5px;
+    width: 3rem;
+    height: 2.5rem;
+    background-color: #add8e6;
+    font-size: 1.2rem;
+    padding-top: 12px;
+}
+
+.card-icons div span {
+    user-select: none;
+}
+.hidden{
+    display: none;
+}
